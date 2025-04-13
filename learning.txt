@@ -1,0 +1,14 @@
+middleware 
+-----------
+
+middleware is used to manuplate the req from the before actual api hit 
+middleware can return the response before the api 
+it can validate the user and make any changes in request 
+
+
+
+http status 
+-------------
+
+how to send http status 
+know standard  http status code 
