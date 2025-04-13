@@ -15,6 +15,7 @@ app.use((req, res, next) => {
 
 //Routes
 app.get("/users", (req, res) => {
+  console.log("hello from users route ");
   const html = `
 <ul>
 ${users.map((user) => `<li>${user.first_name}</li>`).join("")}
