@@ -8,6 +8,8 @@ const PORT = 8001;
 //middleware - plugin
 app.use(express.urlencoded({ extended: false }));
 
+console.log("testing restore command");
+
 app.use((req, res, next) => {
   console.log("hello from middleware 1");
   next();
